@@ -10,6 +10,61 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #1e3932;
 }
+body {
+  display: flex;
+  flex-direction: column;
+ margin-left: 20%;
+ margin-right: 20%;
+  
+  
+}
+.city-list{
+  border: .5px solid #f2f0eb;
+  border-radius: 3px;
+  padding: 2%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-item {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+  background-color: #00754a;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+}
+[for="city-sbux-count"]{
+  background-color: rgb(149, 149, 149);
+  padding: 12px;
+  border-radius: 3px; 
+  display: flex;
+
+  
+  
+}
+
+nav {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -10px;
+  
+}
+h1 {
+  color: #f2f0eb;
+  
+}
+
+
+
+
 
 /* your code */
