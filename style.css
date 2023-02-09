@@ -20,32 +20,36 @@ body {
   
   
 }
+
+ 
+
 .city-list{
   border: .5px solid #f2f0eb;
-  border-radius: 3px;
   padding: 2%;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.city-item {
+section > .city-item {
   display: flex;
   justify-content: flex-end;
   margin: 5px;
   background-color: #00754a;
   padding-top: 2px;
   padding-bottom: 2px;
+  padding-right: 4px;
   
 }
 [for="city-sbux-count"]{
   background-color: rgb(149, 149, 149);
   padding: 12px;
-  border-radius: 3px; 
   display: flex;
 
-  
-  
+}
+
+[for="city-sbux-count"], .city-list {
+  border-radius: 3px;
 }
 
 nav {
